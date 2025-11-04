@@ -1,5 +1,5 @@
 name: melofi
-version: 1.0.0+1
+description: A sleek, Spotify-style app called Melofi, a modern song editor and music enhancer. The app features a dark, minimalistic UI with neon accents and smooth animations. Users can import songs, trim audio, add beats, auto-tune vocals, and apply filters — all in real time. Includes a waveform visualizer, drag-and-drop editing tools, and AI-powered beat matching. Users can save their mixes as playlists, share them, or export them in high quality.
 publish_to: 'none'
 environment:
   sdk: ^3.7.2

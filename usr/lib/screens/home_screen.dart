@@ -138,19 +138,19 @@ class HomeContent extends StatelessWidget {
                               color: Colors.white,
                             ),
                           ),
-                          const Padding(
-                            padding: EdgeInsets.all(8.0),
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
                                   'Mix ${index + 1}',
-                                  style: TextStyle(
+                                  style: const TextStyle(
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold,
                                   ),
                                 ),
-                                Text(
+                                const Text(
                                   'Your creation',
                                   style: TextStyle(
                                     color: Colors.white70,
@@ -269,7 +269,7 @@ class HomeContent extends StatelessWidget {
             const SizedBox(width: 16),
             Expanded(
               child: _buildActionCard('New Mix', Icons.add, () {
-                setState(() => _selectedIndex = 1);
+                // Navigate to editor
               }),
             ),
           ],
